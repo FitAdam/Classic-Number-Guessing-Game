@@ -3,7 +3,7 @@ class Controler:
         pass
 
     def welcome(self):
-        y = int(input("I'm thinking of a number! Try to guess the number I'm thinking of: "))
+        y = int(float(input("I'm thinking of a number! Try to guess the number I'm thinking of: ")))
         return y 
 
     def get_input(self):
